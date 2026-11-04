@@ -22,7 +22,7 @@ Run `supabase/migrations/001_initial.sql` in the SQL editor. Create an administr
 
 ## Deployment
 
-Run `npm run build` and publish `dist/` to any static host. `CNAME` is already set to `vishwakesh.me`; configure the domain at the hosting provider and enable SPA fallback to `index.html` for direct routes.
+Run `npm run build` and publish `dist/` to any static host. The included `.github/workflows/deploy-pages.yml` deploys `main` to GitHub Pages automatically. `CNAME` is included in both the repository root and the generated `dist/`; configure the domain at the hosting provider and enable SPA fallback to `index.html` for direct routes.
 
 ## Privacy
 
